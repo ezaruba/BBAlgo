@@ -8,6 +8,7 @@ This artificial neural network uses a multi layer perceptron in a format of  5 i
 The engine uses the HTTP get class to download a CSV file, feed the values into an array, and then normalize the data into a decimal scale. From there an activation function used to transform the activation level of neuron (weighted sum of inputs) to an 
 output signal: 
 ![Activation](https://github.com/magicaltoaster/BBAlgo/blob/master/NN/Activation.PNG)
+
 Then the trade engine determines if the output should trigger a trade.
 
 The Neural Network can be quite profitable however the difficulty is getting the network to predict discrepancies in future market stucture.
