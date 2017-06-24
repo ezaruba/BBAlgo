@@ -9,7 +9,9 @@ The engine uses the HTTP get class to download a CSV file, feed the values into 
 output signal: 
 ![Activation](https://github.com/magicaltoaster/BBAlgo/blob/master/NN/Activation.PNG)
 
-Then the trade engine determines if the output should trigger a trade.
+Then the trade engine determines if the output should trigger a trade. When finished iterating through the time series it takes the prediction values and time series and maps it to a chart
+
+![chart](https://github.com/magicaltoaster/BBAlgo/blob/master/NN/NFLXANN.PNG)
 
 The Neural Network can be quite profitable however the difficulty is getting the network to predict discrepancies in future market stucture.
 
